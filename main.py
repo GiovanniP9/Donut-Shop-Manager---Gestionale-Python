@@ -1,5 +1,6 @@
 import re
 import logging
+import time
 
 # Configurazione di base per il logging
 logging.basicConfig(level=logging.INFO)
@@ -179,14 +180,10 @@ def main():
             return  # Termina se il login fallisce
     elif choice.lower() == 'r':
         auth.register()
+        auth.login()
     else:
         print("Scelta non valida.")
         return
-    
-    # Possibilità di aggiornare i dati dell'utente loggato
-    update_choice = input("Vuoi aggiornare i tuoi dati? (s/n) ")
-    if update_choice.lower() == 's':
-        user.update_data()
     
     # Creazione dello store e aggiunta di alcuni prodotti
     my_store = store()
@@ -197,6 +194,7 @@ def main():
     
     # Ciclo di menu interattivo
     while True:
+        time.sleep(2)
         print("\n=== Menu Principale ===")
         print("1. Visualizza inventario")
         print("2. Vendi prodotto")
