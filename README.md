@@ -26,3 +26,18 @@ donut_shop_manager/
 ├── main.py            # Codice principale con tutte le classi e la funzione main()
 ├── README.md          # Documentazione del progetto
 
+🧑‍💻 Suddivisione dei compiti
+Il progetto è stato realizzato grazie al contributo del team, suddividendo le responsabilità nel seguente modo:
+
+Nunzio: ha costruito la classe Donut per la creazione delle ciambelle e ha implementato il decoratore is_called per la verifica delle chiamate alle funzioni.
+
+Giovanni: ha sviluppato la classe Store, occupandosi della gestione del negozio e dell’integrazione con la classe Donut.
+
+Marco: ha realizzato la classe User, dedicata alla creazione e gestione degli utenti.
+
+Ciro: ha creato la classe di autenticazione, necessaria per accedere alle funzionalità del gestionale in modo sicuro.
+
+Team: insieme abbiamo integrato tutte le componenti nella funzione di avvio (main()) per il corretto funzionamento dell’intero sistema.
+
+
+
