@@ -30,6 +30,7 @@ Marco: ha realizzato la classe User, dedicata alla creazione e gestione degli ut
 Ciro: ha creato la classe di autenticazione, necessaria per accedere alle funzionalità del gestionale in modo sicuro.
 
 Team: insieme abbiamo integrato tutte le componenti nella funzione di avvio (main()) per il corretto funzionamento dell’intero sistema.
+
 ---
 
 ## 📂 Struttura del progetto
