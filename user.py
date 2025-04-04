@@ -12,7 +12,7 @@ class User:
         
 
     def update_data(self):
-        if self.idSession != -1:
+        if self.idSession == -1:
             print('Effettua il login prima di modificare i dati.')
             return
 
