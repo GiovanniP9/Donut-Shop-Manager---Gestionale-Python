@@ -17,8 +17,8 @@ class User:
             return
 
         print(self.users[self.idSession])
-        nuovo_username = input("Inserisci il nuovo username (premi invio per mantenere quello attuale): ")
-        nuova_password = input("Inserisci la nuova password (premi invio per mantenere quella attuale): ")
+        nuovo_username = input("Inserisci il nuovo username: ")
+        nuova_password = input("Inserisci la nuova password: ")
 
         if nuovo_username:
             self.users[self.idSession]['username'] = nuovo_username
