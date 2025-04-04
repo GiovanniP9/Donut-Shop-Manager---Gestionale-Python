@@ -15,16 +15,8 @@ Benvenuto nel **Donut Shop Manager**, un gestionale scritto in Python che simula
   - Vendita con controllo quantità
 - 👤 Aggiornamento dati utente
 - 📝 Logging delle funzioni grazie a un decoratore personalizzato
-
----
-
-## 📂 Struttura del progetto
-
-```bash
-donut_shop_manager/
-│
-├── main.py            # Codice principale con tutte le classi e la funzione main()
-├── README.md          # Documentazione del progetto
+  
+## Documentazione
 
 🧑‍💻 Suddivisione dei compiti
 Il progetto è stato realizzato grazie al contributo del team, suddividendo le responsabilità nel seguente modo:
@@ -38,6 +30,16 @@ Marco: ha realizzato la classe User, dedicata alla creazione e gestione degli ut
 Ciro: ha creato la classe di autenticazione, necessaria per accedere alle funzionalità del gestionale in modo sicuro.
 
 Team: insieme abbiamo integrato tutte le componenti nella funzione di avvio (main()) per il corretto funzionamento dell’intero sistema.
+---
+
+## 📂 Struttura del progetto
+
+```bash
+donut_shop_manager/
+│
+├── main.py            # Codice principale con tutte le classi e la funzione main()
+├── README.md          # Documentazione del progetto
+
 
 
 
